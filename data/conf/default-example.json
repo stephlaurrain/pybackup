@@ -1,0 +1,15 @@
+{
+    "keep_log": {
+        "time": 1,
+        "unit": "m"
+    },
+    "to_save": [
+        {
+            "name":"savedDir",
+            "startdir": "/mystartdir",
+            "destdir": "/mydestdir"
+        }
+    ],
+    "compress": true,
+    "verbose": true
+}
