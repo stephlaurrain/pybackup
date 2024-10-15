@@ -35,7 +35,7 @@ class Backup:
     @_error_decorator()
     def main(self):
     
-        self.log = mylog.Log()
+        self.log = mylog.Log(self.root_app)
         self.log.init("default")
         self.trace(inspect.stack())
         # params
